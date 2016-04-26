@@ -5,7 +5,7 @@ android {
     buildToolsVersion "23.0.3"
 
     defaultConfig {
-        applicationId "com.dongweiq.support_v2220_demo"
+        applicationId "com.dongweiq.android_eventbus_demo"
         minSdkVersion 9
         targetSdkVersion 23
         versionCode 1
@@ -21,9 +21,6 @@ android {
 
 dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
-    compile 'com.android.support:support-v4:23.3.0'
     compile 'com.android.support:appcompat-v7:23.3.0'
-    compile 'com.android.support:design:23.3.0'
-    compile 'com.android.support:recyclerview-v7:23.+'
-    compile 'com.android.support:cardview-v7:23.+'
+    compile 'de.greenrobot:eventbus:2.4.0'
 }
